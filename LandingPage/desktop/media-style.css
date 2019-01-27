@@ -13,11 +13,14 @@ body {
 }
 
 .left {
-    max-width: 450px;
+    max-width: 1136px;
 }
 
 /* Small and up (Landscape Phones) */
 @media (min-width: 576px) {
+    body {
+        background-image: blue;
+    }
 }
 
 /* Medium and up (Tablets) */
