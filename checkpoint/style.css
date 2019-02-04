@@ -1,0 +1,71 @@
+body {
+    background-image: url(./images/space.png);
+    color: white;
+    text-align: center;
+    }
+main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%; 
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+    grid-gap: 50px;
+    }   
+#Calculator{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+align-content: center;
+padding: 10%;
+width: 50%;
+}
+button {
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 25%;
+    text-align: middle;
+    }
+button:hover {background-color: #3e8e41}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+input {
+    width: 100%;
+}
+
+#Todo {
+    margin: 10%;
+}
+
+/* Small and up (Landscape Phones) */
+@media (min-width: 0px) {
+    main {
+        display: grid;
+
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25%;     
+    }
+    }
+
+/* Medium and up (Tablets) */
+@media (min-width: 767px) {
+    main {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25%;   
+    }
+   }
+
+/* Large and up (Desktops) */
+@media (min-width: 1024px) {
+    main {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%; 
+    }
+}
