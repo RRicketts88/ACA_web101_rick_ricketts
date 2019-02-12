@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dog Portfolio</title>
+    <header>
+        <h1>Rick's Dog Portfolio</h1>
+        <style>
+            h1 {
+                font-size: 35px;
+            }
+            .input {
+                display: flex;
+                flex-direction: column;
+                width: 50%
+            }
+        </style>
+    </header>
+</head>
+<body>
+    <iframe width="50%" height=315px src="https://www.youtube.com/embed/kMhw5MFYU0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+</br>
+    <video controls width="50%" height=315px>
+        <source src="./dogtrick.mp4" type="video/mp4">
+        <p>Your browser doesn't support HTML5 video. Here is
+            a <a href="https://www.youtube.com/watch?v=P5yunhX3FIE">link to another cool Dog Video</a> instead.</p>
+    </video>
+    <form>
+        <label class="input">
+            <span>Your Name :</span>
+            <input id="name" type="text" name="name" placeholder="Your Full Name" />
+        </label>
+        
+        <label class="input">
+            <span>Your Email :</span>
+            <input id="email" type="email" name="email" placeholder="Valid Email Address" />
+        </label>
+
+        <label class="input">
+            <span>Your Location :</span>
+            <input id="location" type="location" name="location" placeholder="Valid Zip Code" />
+        </label>
+        
+        <label class="input">
+            <span>Message :</span>
+            <textarea id="message" name="message" placeholder="Your Message to Us"></textarea>
+        </label>
+
+        <button>Reset</button>
+        
+        <input type="submit" value="Submit" name="">
+    </form>
+</body>
+</html>
