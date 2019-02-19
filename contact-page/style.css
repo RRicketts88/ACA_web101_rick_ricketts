@@ -1,0 +1,64 @@
+header {
+    text-align: center;
+    background-color:lightcoral;
+    height: 5%;
+}
+
+.banner_contactme {
+    text-align: center;
+}
+
+ul.banner_contactme {
+    display: inline-block;
+    padding-left: 0;
+}
+
+
+.nicegrid {
+display: grid;
+grid-template-columns: auto auto;
+grid-template-rows: auto auto;
+background-color: #2196F3;
+padding: 20px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+h1 {   
+    text-align: center;
+}
+h2 {   
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+
+
+
+/* Small and up (Landscape Phones) */
+@media (min-width: 0px) {
+    ul.banner li {
+        display: inline;
+        padding: 5%;
+        font-size: 80%;
+      }
+    }
+
+/* Medium and up (Tablets) */
+@media (min-width: 767px) {
+    ul.banner li {
+        padding: 5%;
+        font-size: 100%;
+      }
+
+/* Large and up (Desktops) */
+@media (min-width: 1024px) {
+    ul.banner li {
+        display: inline;
+        font-size: 150%;
+      }
