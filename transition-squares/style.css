@@ -1,0 +1,105 @@
+.square {
+    border: black;
+    height: 50px;
+    width: 50px;
+}
+body {
+    margin: 5%;
+    /* margin-left: 50%;
+    margin-right: 50%; */
+}
+#one {
+    background-color: blue;
+    -webkit-transition: scale(1.1,1.1);
+    -moz-transition: scale(1.1,1.1);
+    -o-transition: scale(1.1,1.1);
+    -ms-transition: scale(1.1,1.1);
+    transition: scale(1.1,1.1);
+  }
+  #one:hover {
+    /* -webkit-transform: rotate(90deg) scale(2,2);
+    -moz-transform: rotate(90deg) scale(2,2);
+    -o-transform: rotate(90deg) scale(2,2);
+    -ms-transform: rotate(90deg) scale(2,2); */
+    /* transform: rotate(360deg) scale(2); */
+    transform: rotate(90deg) scale(2,2) translate(50px, -100px);
+    transition: 5s;
+}
+#two {
+    background-color: green;
+    transition: scale(1.1,1.1);
+  }
+#two:hover {
+    transform: rotate(-90deg) scale(.5,.5) translate(50px, -100px);
+    transition: 5s;
+  }
+#three {
+    background-color: purple;
+}
+#three:hover {
+    transform: rotate(90deg) scale(2,2) translate(50px, -100px);
+    transition: 5s;
+}
+#four {
+    background-color: pink;
+}
+#four:hover {
+    transform: rotate(-90deg) scale(.5,.5) translate(50px, -100px);
+    transition: 5s;
+  }
+#five {
+    background-color: turquoise;
+}
+#five:hover {
+    transform: rotate(90deg) scale(2,2) translate(50px, -100px);
+    transition: 5s;
+}
+#six {
+    background-color: grey;
+}
+#six:hover {
+    transform: rotate(-90deg) scale(.5,.5) translate(50px, -100px);
+    transition: 5s;
+  }
+#seven {
+    background-color: violet;
+}
+#seven:hover {
+    transform: rotate(90deg) scale(2,2) translate(50px, -100px);
+    transition: 5s;
+}
+#eight {
+    background-color: yellow;
+}
+#eight:hover {
+    transform: rotate(-90deg) scale(.5,.5) translate(50px, -100px);
+    transition: 5s;
+  }
+#nine {
+    background-color: black;
+}
+#nine:hover {
+    transform: rotate(90deg) scale(2,2) translate(50px, -100px);
+    transition: 5s;
+}
+#ten {
+    background-color: powderblue;
+}
+#ten:hover {
+    transform: rotate(-90deg) scale(.5,.5) translate(50px, -100px);
+    transition: 5s;
+  }
+#eleven {
+    background-color: lightseagreen;
+}
+#eleven:hover {
+    transform: rotate(-90deg) scale(.5,.5) translate(50px, -100px);
+    transition: 5s;
+  }
+#twelve {
+    background-color: navy;
+}
+#twelve:hover {
+    transform: rotate(-90deg) scale(.5,.5) translate(50px, -100px);
+    transition: 5s;
+  }
