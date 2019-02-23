@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dog Portfolio</title>
+    <header>
+        <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+        <h1 style="font-size:5vw;">About Me</h1>
+        <nav>
+                <a href="landingpage.html">Home</a>
+        </nav>
+        <style>
+            body {
+            font-family:  'Gloria Hallelujah', cursive;
+            }
+            header {
+                font-size: 100%;
+            }
+            h1 {
+                text-align: center;
+            }
+            nav {
+                text-align: center;
+            }
+            .input {
+                display: flex;
+                flex-direction: column;
+                width: 75%;
+                align-content: center;
+            }
+        </style>
+    </header>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet, sea alia illum vitae et, accumsan officiis inimicus eum ut, te mea consul nominati. Ne lorem sapientem dissentiunt nec, est veri meis qualisque ea, ex etiam dolor civibus est. No sit ullum lucilius deseruisse. Duo nibh eius ei. Aliquip alienum mandamus an sit, vis case duis causae at. Nam cu mollis vivendum, an malis urbanitas cotidieque duo. Mei ad duis possim volumus.
+    </br>
+    </br>
+    Aeque dolor lucilius sit ne, erant maluisset ei pro. Id discere sanctus mandamus usu, te nam molestie insolens. Et vim tantas verear prompta, ut consul nonumes duo, ne nec facilisi voluptatibus. Pro alienum maiestatis in, erant congue et his.</p>
+    </br>
+    <main>
+        <iframe width="50%" height=315px src="https://www.youtube.com/embed/kMhw5MFYU0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        </br>
+        <video controls width="50%" height=315px>
+            <source src="./img/dogtrick.mp4" type="video/mp4">
+            <p>Your browser doesn't support HTML5 video. Here is
+                a <a href="https://www.youtube.com/watch?v=P5yunhX3FIE">link to another cool Dog Video</a> instead.</p>
+        </video>    
+        <form>
+            <label class="input">
+                <span>Your Name :</span>
+                <input id="name" type="text" name="name" placeholder="Your Full Name" />
+            </label>
+            
+            <label class="input">
+                <span>Your Email :</span>
+                <input id="email" type="email" name="email" placeholder="Valid Email Address" />
+            </label>
+
+            <label class="input">
+                <span>Your Location :</span>
+                <input id="location" type="location" name="location" placeholder="Valid Zip Code" />
+            </label>
+            
+            <label class="input">
+                <span>Message :</span>
+                <textarea id="message" name="message" placeholder="Your Message to Us"></textarea>
+            </label>
+
+            <button>Reset</button>
+            
+            <input type="submit" value="Submit" name="">
+        </form>
+    </main>
+</body>
+</html>

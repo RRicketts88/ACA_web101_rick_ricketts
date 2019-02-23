@@ -1,0 +1,84 @@
+body {
+    font-family: 'Pacifico', cursive;
+    background-color: yellow;
+    }
+
+.photo1 {
+    max-height: 300px;
+    max-width: 60%;
+}
+
+.stories {
+    float: right;
+    margin-right: 20%;
+}
+
+.left {
+    max-width: 75%;
+    font-size:12px;
+}
+
+.photo1 {
+    width: 50%;    
+}
+
+.stories {
+    visibility: hidden;
+} 
+.insight {
+    font-size: 12px;
+    margin-left: 15%;
+}
+
+
+/* Small and up (Landscape Phones) */
+@media (min-width: 576px) {
+    .photo1 {
+        width: 80%;
+        
+    }   
+    .stories {
+        display: hidden;
+    }
+    .insight {
+        font-size: 14px;
+        margin-left: 0%;
+    }
+    .left {
+        font: size 32px;;
+    }
+}
+
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+    .stories {
+        visibility: hidden;
+    }
+    .insight {
+        font-size: 20px;
+    }
+}
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+    .stories {
+        visibility: visible;
+            }
+            .insight {
+            font-size: 30px;
+            }
+            .left {
+            font: size 42px;;
+        }   
+}
+
+/* Extra Large and up (Wide Screen Desktops) */
+@media (min-width: 1200px) {
+    .stories {
+        visibility: visible;
+    }
+    .insight {
+    font-size: 30px;
+    }
+}
+
