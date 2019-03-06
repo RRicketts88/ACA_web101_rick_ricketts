@@ -1,0 +1,14 @@
+.marquee {
+  width: 300px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background: #ccc;
+}
+
+ul .old {
+  background: blue;
+}
+
+ul .new {
+  background: red;
+}
