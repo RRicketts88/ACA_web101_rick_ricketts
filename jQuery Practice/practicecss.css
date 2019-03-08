@@ -1,3 +1,4 @@
+/* here i am creating a flex box that we can play our game in */
 [data-row] {
     display: flex;
     justify-content: flex-start;
@@ -6,28 +7,28 @@
     margin: 25px;
     border: 1px solid lightgray;
   }
-  
+  /* here i am turning the top row red */
   [data-row].red {
     background-color: #f6c5c5;
   }
-  
+  /* here i am turning the 2nd row yellow */
   [data-row].yellow {
     background-color: #ffffa9;
   }
-  
+  /* here i am turning the 3rd row green */
   [data-row].green {
     background-color: #baf6ba;
   }
-  
+  /* here i am turning the 4th row blue */
   [data-row].blue {
     background-color: aliceblue;
   }
-  
+  /* here i am setting the width of the boxes and putting them on the left side of the bottom row */
   [data-color] {
     width: 25px;
     float: left;
   }
-  
+  /* below I will give all the boxes their respective colors */
   [data-color="blue"] {
     height: 33px;
     background-color: blue;
@@ -47,7 +48,7 @@
     height: 33px;
     background-color: yellow;
   }
-  
+  /* if you win the game you will see an announcment in this style */
   #announce-game-won {
     font-size: 50px;
     text-align: center;
