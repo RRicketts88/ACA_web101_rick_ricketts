@@ -1,10 +1,10 @@
-const wordArr = ['waffle', 'whimper', 'sneeze', 'shindig', 'leopard', 'whisper', 'elegant', 'wolf', 'weasel']
+const wordArr = ['waffle', 'whimper', 'sneeze', 'shindig', 'leopard', 'whisper', 'elegant']
 
-const printOnlyWWords = (arr) => {
+const printOutWord = (arr) => {
   // your code here
 }
 
-printOnlyWWords(wordArr) // =>
+printOutWord(wordArr) // =>
 'waffle'
 'whimper'
 'sneeze'
